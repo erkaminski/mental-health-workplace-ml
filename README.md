@@ -22,7 +22,7 @@ This project uses the *Mental Health in Tech Survey (2014)* dataset.
 
 Source: https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 
-A small sample of the dataset is included in `data/sample.csv`.
+A small sample of the dataset is included in `data_sample/sample.csv`.
 
 ---
 
