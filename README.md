@@ -43,7 +43,7 @@ A small sample of the dataset is included in `data/sample.csv`.
 
 The following diagram summarizes the full modeling pipeline used in this project:
 
-![Pipeline](images/MH_project_architecture.png)
+![Pipeline](images/project_architecture.png)
 
 ---
 
