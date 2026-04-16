@@ -6,15 +6,18 @@ This project builds a machine learning model to predict whether an employee seek
 
 ## 📊 Overview
 
-The goal is to understand how workplace conditions influence treatment-seeking behavior.
+The goal is to understand how workplace conditions relate to treatment-seeking behavior.
 
 The project focuses on:
+
 - data preprocessing and feature engineering  
-- classification modeling  
+- classification models  
 - model evaluation and threshold tuning  
-- extracting insights from the model  
+- extracting insights from the model
+
 
 ---
+
 
 ## 🗂 Data
 
@@ -24,28 +27,33 @@ Source: https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 
 A small sample of the dataset is included in `data_sample/sample.csv`.
 
+
 ---
+
 
 ## ⚙️ Methodology
 
-- Data cleaning and preprocessing (handling missing values, encoding categorical variables)
-- Feature selection focused on workplace-related factors
+- Data cleaning and preprocessing (missing values, categorical encoding)  
+- Feature selection focused on workplace-related variables  
 - Models:
   - Logistic Regression  
   - Random Forest  
 - Handling class imbalance with SMOTE  
-- Model evaluation using ROC AUC, precision, recall  
-- Threshold tuning to prioritize recall for the positive class  
+- Evaluation using ROC AUC, precision, and recall  
+- Threshold tuning to increase recall for the positive class  
+  
 
 ---
 
 ## 📈 Pipeline Overview
 
-The following diagram summarizes the full modeling pipeline used in this project:
+The following diagram summarizes the full pipeline using in this project:
 
 ![Pipeline](images/project_architecture.png)
 
+
 ---
+
 
 ## 📈 Results
 
@@ -53,11 +61,14 @@ The following diagram summarizes the full modeling pipeline used in this project
 - ROC AUC ≈ 0.80  
 
 Key observations:
+
 - mental health interfering with work is the strongest signal  
 - access to care options and benefits matters  
-- workplace openness plays a role in treatment-seeking behavior  
+- workplace openness also plays a role
 
+  
 ---
+
 
 ## ▶️ How to Run
 
@@ -67,19 +78,23 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+
 ---
+
 
 ## 📝 Notes
 
-- The dataset is based on self-reported survey data
-- The model captures associations, not causal relationships
-- Results may not generalize beyond the tech industry
+- Data comes from self-reported survey responses  
+- The model shows relationships, not cause and effect  
+- Results may not generalize beyond the tech industry  
+
 
 ---
 
+
 ## 🚀 Next Steps
 
-- test additional models
-- include more features
-- validate results on other datasets
-- deploy the model as an API
+- test additional models  
+- include more features  
+- validate results on other datasets  
+- deploy the model as an API  
