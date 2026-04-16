@@ -39,6 +39,14 @@ A small sample of the dataset is included in `data/sample.csv`.
 
 ---
 
+## 📈 Pipeline Overview
+
+The following diagram summarizes the full modeling pipeline used in this project:
+
+![Pipeline](images/MH_project_architecture.png)
+
+---
+
 ## 📈 Results
 
 - Logistic Regression performed best on the test set  
