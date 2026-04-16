@@ -51,18 +51,6 @@ Key observations:
 
 ---
 
-## 🧱 Project Structure
-
-mental-health-treatment-prediction/
-├── notebooks/
-│ └── mental_health_treatment_prediction.ipynb
-├── data/
-│ └── sample.csv
-├── requirements.txt
-└── README.md
-
-___
-
 ## ▶️ How to Run
 
 Install dependencies:
