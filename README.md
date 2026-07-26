@@ -4,7 +4,7 @@ This project builds a machine learning model to predict whether an employee seek
 
 ---
 
-## 📊 Overview
+## 📂  Overview
 
 The goal is to understand how workplace conditions relate to treatment-seeking behavior.
 
@@ -19,7 +19,7 @@ The project focuses on:
 ---
 
 
-## 🗂 Data
+## 📂  Data
 
 This project uses the *Mental Health in Tech Survey (2014)* dataset.
 
@@ -31,7 +31,7 @@ A small sample of the dataset is included in `data_sample/sample.csv`.
 ---
 
 
-## ⚙️ Methodology
+## 📂  Methodology
 
 - Data cleaning and preprocessing (missing values, categorical encoding)  
 - Feature selection focused on workplace-related variables  
@@ -45,7 +45,7 @@ A small sample of the dataset is included in `data_sample/sample.csv`.
 
 ---
 
-## 📈 Pipeline Overview
+## 📂  Pipeline Overview
 
 The following diagram summarizes the full pipeline using in this project:
 
@@ -55,7 +55,7 @@ The following diagram summarizes the full pipeline using in this project:
 ---
 
 
-## 📈 Results
+## 📂  Results
 
 - Logistic Regression performed best on the test set  
 - ROC AUC ≈ 0.80  
@@ -70,7 +70,7 @@ Key observations:
 ---
 
 
-## ▶️ How to Run
+## 📂  How to Run
 
 Install dependencies:
 
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ---
 
 
-## 📝 Notes
+## 📂  Notes
 
 - Data comes from self-reported survey responses  
 - The model shows relationships, not cause and effect  
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 ---
 
 
-## 🚀 Next Steps
+## 📂  Next Steps
 
 - test additional models  
 - include more features  
